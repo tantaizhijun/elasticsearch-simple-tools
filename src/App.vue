@@ -11,6 +11,7 @@
             <router-link role="presentation" to="routerDelete" tag="li"><a href="#">删除路由</a></router-link>
             <router-link role="presentation" to="dataMultiExport" tag="li"><a href="#">数据多表导出</a></router-link>
             <router-link role="presentation" to="dataEdit" tag="li"><a href="#">数据查询与修改</a></router-link>
+            <router-link role="presentation" to="test" tag="li"><a href="#">测试</a></router-link>
         </ul>
 
         <div class="main-panel panel panel-default">
@@ -55,10 +56,10 @@ export default {
     }
 
     body {
-        user-select: none;
+        /* user-select: none;
         -moz-user-select: none;
         -webkit-user-select: none;
-        -ms-user-select: none;
+        -ms-user-select: none; */
     }
 
     .main-container .page-container {

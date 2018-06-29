@@ -8,6 +8,7 @@ import Flyway from '@/components/Flyway'
 import DataExport from '@/components/DataExport'
 import DataEdit from '@/components/DataEdit'
 import NotFound from '@/components/404'
+import Test from '@/components/Test'
 
 Vue.use(Router)
 
@@ -57,6 +58,11 @@ export default new Router({
       path: '*',
       name: '404',
       component: NotFound
+    },
+    {
+      path: '/test',
+      name: 'Test',
+      component: Test
     }
   ]
 })
